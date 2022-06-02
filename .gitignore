@@ -1,0 +1,10 @@
+# No compiled python files
+Scripts/__pycache__
+# No temporary vim files
+Scripts/*.swp
+# No files inside Data or Processed
+Data/*
+Processed/*
+# Except README.txt files
+!Data/README.txt
+!Processed/README.txt
